@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+:root {
+    --background-color: rgb(255, 73, 73);
+    --secondary-background-color: rgb(230, 58, 58);
+    --container-color: rgb(238, 238, 238);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: var(--background-color);
+    font-family: 'Roboto';
+    line-height: 1.5em;
+}
+
+.container{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow:auto;
+
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+
+
+    height:100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: var(--container-color);
+    text-align: center;
+    text-justify: inter-word;
+
+}
+
+#hp{
+
+    font-size: 2.5em;
+}
+#par{
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.testList{
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.testButton{
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    padding: 0px;
+    width: 100px;
+    height: 35px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.testButton:hover{
+    background-color: var(--secondary-background-color);
+}
+.testButton:active{
+    background-color: rgb(182, 19, 19);
+}
+#icon{
+    margin-right: 5px;
+
+}
