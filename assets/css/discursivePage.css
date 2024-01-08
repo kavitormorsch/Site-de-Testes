@@ -3,7 +3,7 @@
 :root {
     --background-color: rgb(61, 118, 223);
     --secondary-background-color: rgb(49, 102, 199);
-    --container-color: rgb(238, 238, 238);
+    --container-color: rgb(235, 224, 224);
 }
 
 * {
@@ -11,12 +11,13 @@
     outline: 0;
 }
 
+
 body{
     margin:0;
     padding:0;
     background: var(--background-color);
-    background-image: url("book.png");
-    background-size: 125px;
+    background-image: url("testeIcone.png");
+    background-size: 90px;
     font-family: 'Roboto';
     line-height: 1.5em;
 }
@@ -76,7 +77,7 @@ body{
     background-color: var(--secondary-background-color);
 }
 .testButton:active{
-    background-color: rgb(28, 83, 185);
+    background-color: rgb(182, 19, 19);
 }
 #icon{
     margin-right: 5px;
