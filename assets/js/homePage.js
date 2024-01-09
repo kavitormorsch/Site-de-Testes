@@ -1,5 +1,12 @@
-const buttonTest = document.querySelector('.testButton');
+const disButton = document.querySelector('.disButton');
+const objButton = document.querySelector('.objButton');
 
-buttonTest.addEventListener('click', function(){
+disButton.addEventListener('click', function(){
     window.location.href = "discursivePage.html";
+
+}); 
+
+objButton.addEventListener('click', function(){
+    window.location.href = "discursivePage.html";
+
 }); 

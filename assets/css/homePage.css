@@ -60,7 +60,7 @@ body{
     padding-top: 40px;
 }
 
-.testButton{
+.testList button{
     border: none;
     display: inline-block;
     border-radius: 5px;
@@ -72,10 +72,10 @@ body{
     cursor:pointer;
 }
 
-.testButton:hover{
+.testList button:hover{
     background-color: var(--secondary-background-color);
 }
-.testButton:active{
+.testList button:active{
     background-color: rgb(28, 83, 185);
 }
 #icon{
