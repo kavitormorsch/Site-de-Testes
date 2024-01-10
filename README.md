@@ -8,3 +8,7 @@ O site será feito utilizando HTML, CSS e JavaScript.
 1. Página inicial
 2. Teste objetivo
 3. Teste discursivo
+
+# Planejado
+
+1. Habilidade de trocar de português para inglês e vice-versa.
