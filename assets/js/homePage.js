@@ -7,6 +7,6 @@ disButton.addEventListener('click', function(){
 }); 
 
 objButton.addEventListener('click', function(){
-    window.location.href = "discursivePage.html";
+    window.location.href = "objectivePage.html";
 
 }); 

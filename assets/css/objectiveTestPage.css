@@ -16,7 +16,7 @@ body{
     margin:0;
     padding:0;
     background: var(--background-color);
-    background-image: url("testeIcone.png");
+    background-image: url("objectiveTest.png");
     background-size: 90px;
     font-family: 'Roboto';
     line-height: 1.5em;
@@ -58,7 +58,7 @@ body{
     flex-flow: column wrap;
     align-content: center;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .testButton, .homeButton{
@@ -74,7 +74,7 @@ body{
 }
 
 .homeButton{
-    width:170px;
+    width:80px;
 }
 
 .testButton:hover, .homeButton:hover{

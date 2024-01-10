@@ -16,7 +16,7 @@ body{
     padding:0;
     background: var(--background-color);
     background-image: url("book.png");
-    background-size: 125px;
+    background-size: 90px;
     font-family: 'Roboto';
     line-height: 1.5em;
 }
