@@ -18,3 +18,9 @@ O site será feito utilizando HTML, CSS e JavaScript.
 Para poder ver o projeto por si mesmo, siga as etapas na imagem a seguir, e depois extraía o arquivo e abra o arquivo homePage.html. 
 Isso será apenas enquanto não tiver terminado o teste discursivo e objetivo, pois creio que não estaria pronto para uma release até lá.
 ![image](https://github.com/kavitormorsch/Site-de-Testes/assets/67760452/8c1adc83-abd3-4438-b39e-f371adea724d)
+
+Caso a imagem apresente algum problema, as etapas necessárias para executar são as seguintes:
+1. Aperte o botão verde Code no topo do projeto.
+2. Depois aperte no botão "Download ZIP" no fundo da janela que foi aberta.
+3. Quando terminar de baixar, extraía o arquivo zip com um gerenciador de arquivos como [url=https://www.7-zip.org/download.html](7-zip) ou [url=https://www.win-rar.com/download.html?&L=9](WinRar).
+4. Com o arquivo extraído, abra o arquivo homePage.HTML dentro da pasta extraída com um navegador de sua escolha.
