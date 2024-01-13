@@ -22,5 +22,5 @@ Isso será apenas enquanto não tiver terminado o teste discursivo e objetivo, p
 Caso a imagem apresente algum problema, as etapas necessárias para executar são as seguintes:
 1. Aperte o botão verde Code no topo do projeto.
 2. Depois aperte no botão "Download ZIP" no fundo da janela que foi aberta.
-3. Quando terminar de baixar, extraía o arquivo zip com um gerenciador de arquivos como [url=https://www.7-zip.org/download.html](7-zip) ou [url=https://www.win-rar.com/download.html?&L=9](WinRar).
+3. Quando terminar de baixar, extraía o arquivo zip com um gerenciador de arquivos como [7-zip](https://www.7-zip.org/download.html) ou [WinRar]([WinRar](https://www.win-rar.com/download.html?&L=9)).
 4. Com o arquivo extraído, abra o arquivo homePage.HTML dentro da pasta extraída com um navegador de sua escolha.
