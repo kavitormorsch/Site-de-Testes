@@ -101,25 +101,4 @@ button:active{
     padding-left: 20px;
 }
 
-.answerButtonList{
-    display: inline-flex;
-
-}
-
-#ansList{
-    display: inline-flex;
-    flex-flow: column wrap;
-    justify-content:left;
-    gap: 5px;
-}
-
-.ansSpan{
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: left;
-    padding-left: 15px;
-    align-items: baseline;
-}
-
-
 
