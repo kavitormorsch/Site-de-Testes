@@ -26,6 +26,12 @@ Caso a imagem apresente algum problema, as etapas necessárias para executar sã
 4. Com o arquivo extraído, abra o arquivo homePage.HTML dentro da pasta extraída com um navegador de sua escolha.
 
 
+
+
+
+
+
+
 # Project: Test website
 
 This is my first personal project, a website where you do different types of tests: objective, discursive, dropdown list of answers, etc.
