@@ -5,10 +5,16 @@ O site será feito utilizando HTML, CSS e JavaScript.
 
 # To-Do
 
-1. Página inicial
-2. Teste objetivo
-3. Teste discursivo
+🟢: Está feito.
+🟠: Funcionalmente pronto, mas pode ter mais para adicionar antes de estar pronto.
+🟡: Atualmente sendo desenvolvido.
+🔴: Não Começei a fazer ainda.
 
+
+1. Página inicial 🟠
+2. Teste objetivo 🟡
+3. Teste discursivo 🟡
+ 
 # Planejado
 
 1. Habilidade de trocar de português para inglês e vice-versa.
@@ -39,6 +45,11 @@ It is being made with HTML, Javascript and CSS.
 
 
 # To-Do
+
+🟢: Finished
+🟠: Functionally ready, but there may be more added before it's declared finished.
+🟡: Currently working on it.
+🔴: Haven't started making it.
 
 1. Home Page
 2. Objecive test
