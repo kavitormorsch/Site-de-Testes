@@ -5,9 +5,9 @@ O site será feito utilizando HTML, CSS e JavaScript.
 
 # To-Do
 
-🟢: Está feito.
-🟠: Funcionalmente pronto, mas pode ter mais para adicionar antes de estar pronto.
-🟡: Atualmente sendo desenvolvido.
+🟢: Está feito.  
+🟠: Funcionalmente pronto, mas pode ter mais para adicionar antes de estar pronto.  
+🟡: Atualmente sendo desenvolvido.  
 🔴: Não Começei a fazer ainda.
 
 
@@ -46,9 +46,9 @@ It is being made with HTML, Javascript and CSS.
 
 # To-Do
 
-🟢: Finished
-🟠: Functionally ready, but there may be more added before it's declared finished.
-🟡: Currently working on it.
+🟢: Finished  
+🟠: Functionally ready, but there may be more added before it's declared finished.  
+🟡: Currently working on it.  
 🔴: Haven't started making it.
 
 1. Home Page
