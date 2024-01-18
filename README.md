@@ -11,8 +11,8 @@ O site será feito utilizando HTML, CSS e JavaScript.
 🔴: Não Começei a fazer ainda.
 
 
-1. Página inicial 🟠
-2. Teste objetivo 🟡
+1. Página inicial   🟠
+2. Teste objetivo   🟡
 3. Teste discursivo 🟡
  
 # Planejado
@@ -52,9 +52,9 @@ It is being made with HTML, Javascript and CSS.
 🟡: Currently working on it.  
 🔴: Haven't started making it.
 
-1. Home Page
-2. Objecive test
-3. Discursive Test
+1. Home Page       🟠
+2. Objective test  🟡
+3. Discursive test 🟡
 
 # Planned
 
