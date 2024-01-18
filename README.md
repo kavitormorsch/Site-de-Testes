@@ -23,6 +23,7 @@ O site será feito utilizando HTML, CSS e JavaScript.
 
 Para poder ver o projeto por si mesmo, siga as etapas na imagem a seguir, e depois extraía o arquivo e abra o arquivo homePage.html. 
 Isso será apenas enquanto não tiver terminado o teste discursivo e objetivo, pois creio que não estaria pronto para uma release até lá.
+
 ![image](https://github.com/kavitormorsch/Site-de-Testes/assets/67760452/8c1adc83-abd3-4438-b39e-f371adea724d)
 
 Caso a imagem apresente algum problema, as etapas necessárias para executar são as seguintes:
@@ -63,6 +64,7 @@ It is being made with HTML, Javascript and CSS.
 
 To be able to see the project yourself, follow the steps in the image below, then extract the file and open the homePage.html file.
 This is only until I finish the discursive test and objective test, as I believe it wouldn't be ready without those parts completed.
+
 ![image](https://github.com/kavitormorsch/Site-de-Testes/assets/67760452/8c1adc83-abd3-4438-b39e-f371adea724d)
 
 In case the image gives you any problems, below are the steps necessary to open the project:
