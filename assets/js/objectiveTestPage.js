@@ -6,9 +6,10 @@ const answerButtonList = document.querySelector(".answerButtonList");
 
 
 let currentQuestion = 1;
+let questionIndex = currentQuestion - 1;
 
 const questionTable = [
-    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     answer1: 'Carpet.',
     answer2: 'Bucket.',
     answer3: 'Pencil.',
@@ -51,7 +52,8 @@ const questionTable = [
 
 let chosenQuestions = [];
 
-console.log(questionTable[1].rightAnswer);
+let savedAnswers = [];
+
 
 homeButton.addEventListener('click', function(){
     window.location.href = "objectivePage.html";
@@ -61,22 +63,35 @@ if(currentQuestion === 1){
 };
 
 returnButton.addEventListener('click', function(){
+    saveSelection();
     currentQuestion -= 1;
     if(currentQuestion === 1){
         returnButton.style.display = "none";
     };
     displayAnswers();
+
+    if(savedAnswers.length > 0){
+        console.log('if check')
+        loadSelection();
+    };
     perguntaTit.innerHTML = `Pergunta ${currentQuestion}`;
+
 });
 
 advanceButton.addEventListener('click', function(){
+    
     if (currentQuestion < 10){
-    currentQuestion+=1;
-    }
+        saveSelection();
+        currentQuestion+=1;
+        }
     if(currentQuestion > 1) {
         returnButton.style.display = "inline-block";
     };
     displayAnswers();
+    if(savedAnswers.length > 0){
+        console.log('if check')
+        loadSelection();
+    };
     perguntaTit.innerHTML = `Pergunta ${currentQuestion}`;
 });
 
@@ -146,15 +161,58 @@ function manageAnswers(table){
 };
     }
     else{
-  
+
+        
+        
         for(let i=0; i< table.length; i++){
             const ansText = document.getElementsByClassName('ansText');
             const ansBut = document.getElementsByClassName('ansBut');
+
             ansBut[i].checked = false;  
             ansText[i].innerHTML = eval(`table[currentQuestion-1].answer` + (i+1));
         }
 
     }
 }
+
+function saveSelection(){
+    const ansBut = document.getElementsByClassName('ansBut');
+    questionIndex = currentQuestion - 1;
+    for(let i=0; i<ansBut.length; i++){
+        //console.log(questionIndex);
+        if(ansBut[i].checked === true){
+            if(savedAnswers[questionIndex] === undefined){
+            savedAnswers.push(ansBut[i].value);
+            }else{
+                savedAnswers[questionIndex] = ansBut[i].value;  
+                console.log('hello')
+            }
+
+            console.log(savedAnswers);
+            break;
+        }
+        if(i === ansBut.length - 1 && savedAnswers[questionIndex] === undefined && savedAnswers[questionIndex] !== 'none' ){
+        savedAnswers.push('none');
+
+        }
+        console.log(savedAnswers);
+    };
+};
+
+function loadSelection(){
+    
+    questionIndex = currentQuestion - 1;
+    console.log(questionIndex);
+    const ansBut = document.getElementsByClassName('ansBut');
+    for(let i=0; i<ansBut.length; i++){
+        console.log(savedAnswers[questionIndex]);
+        if(ansBut[i].value === savedAnswers[questionIndex]){
+            console.log('ello');
+            ansBut[i].checked = true;
+            break;
+        }
+    }
+};
+
 displayAnswers();
 console.log(document.getElementById('ansList'));
