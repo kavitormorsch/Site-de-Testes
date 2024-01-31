@@ -14,6 +14,7 @@ O site será feito utilizando HTML, CSS e JavaScript.
 1. Página inicial   🟠
 2. Teste objetivo   🟡
 3. Teste discursivo 🟡
+4. Aba de Aluno e Professor para verificar as respostas e corrigi-lás. 🔴
  
 # Planejado
 
@@ -55,6 +56,7 @@ It is being made with HTML, Javascript and CSS.
 1. Home Page       🟠
 2. Objective test  🟡
 3. Discursive test 🟡
+4. Student and Teacher tab to see answers and grade them. 🔴
 
 # Planned
 
