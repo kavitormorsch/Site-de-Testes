@@ -9,6 +9,7 @@
 * {
     box-sizing: border-box;
     outline: 0;
+
 }
 
 
@@ -20,6 +21,8 @@ body{
     background-size: 90px;
     font-family: 'Roboto';
     line-height: 1.5em;
+    height: 100%;
+    overflow: auto;
 }
 
 .container{
@@ -28,14 +31,13 @@ body{
     right:0;
     left:0;
     bottom:0;
-    overflow:auto;
+    overflow: auto;
 
-    display:flex;
-    flex-flow: column wrap;
-    align-content: center;
+    display:block;
 
 
-    height:100%;
+    height: auto;
+    min-height: 100%;
     margin-left: 20%;
     margin-right: 20%;
     background: var(--container-color);
@@ -86,7 +88,7 @@ button{
     width:80px;
 }
 
-.button:hover{
+button:hover{
     background-color: var(--secondary-background-color);
 }
 button:active{
@@ -95,6 +97,7 @@ button:active{
 
 #perguntaTit{ 
     margin-top: 70px;
+    margin-left: 10px;
     text-align: left;
 }
 
@@ -108,12 +111,16 @@ button:active{
 
 }
 
-.answerInput{
+.ansInput{
     display: inline-flex;
-    padding: 20px 10px;
-    line-height: 28px;
+    height: 250px;
+    width: 500px;
+    resize: none;
+   
+
 }
 
 .ansSpan{
     display: inline-flex;
 }
+

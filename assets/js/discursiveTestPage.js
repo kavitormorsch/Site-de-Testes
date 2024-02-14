@@ -11,7 +11,7 @@ const questionTable = [
     `"Hello, World!" em português seria o quê?`,
     'Como está?',
     'O clima do Rio é qual?',
-    'Qual dessas é uma marca de carro?'
+    'Dite 5 marcas de carro.'
 ];
 
 
@@ -43,7 +43,7 @@ returnButton.addEventListener('click', function(){
 });
 
 advanceButton.addEventListener('click', function(){
-    if (currentQuestion < 10){
+    if (currentQuestion < chosenQuestions.length){
         saveSelection();
         currentQuestion+=1;
         }
@@ -55,7 +55,9 @@ advanceButton.addEventListener('click', function(){
         loadSelection();
     };
     perguntaTit.innerHTML = `Pergunta ${currentQuestion}`;
-
+    if(currentQuestion === chosenQuestions.length){
+        advanceButton.innerHTML = 'Enviar';
+    }
 });
 
 function newQuestion(table){
@@ -100,7 +102,7 @@ function manageAnswers(table){
     if(document.getElementById('ansList') === null){
     const ansList = document.createElement("span");
     ansList.setAttribute("id", "ansList");
-    const ansInput = document.createElement("input");
+    const ansInput = document.createElement("textarea");
     const ansSpan = document.createElement("span");
     ansInput.setAttribute('type', 'Text');
     ansInput.setAttribute('name', 'answerInput');

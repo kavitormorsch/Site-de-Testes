@@ -80,7 +80,7 @@ returnButton.addEventListener('click', function(){
 
 advanceButton.addEventListener('click', function(){
     
-    if (currentQuestion < 10){
+    if (currentQuestion < chosenQuestions.length){
         saveSelection();
         currentQuestion+=1;
         }
@@ -93,6 +93,9 @@ advanceButton.addEventListener('click', function(){
         loadSelection();
     };
     perguntaTit.innerHTML = `Pergunta ${currentQuestion}`;
+    if(currentQuestion === chosenQuestions.length){
+        advanceButton.innerHTML = 'Enviar';
+    }
 });
 
 
